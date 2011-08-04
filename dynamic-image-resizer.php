@@ -7,6 +7,9 @@ Author URI: http://ottodestruct.com
 Version: 1.0
 */
 
+// disable plugin on multisite
+if (is_multisite()) return;
+
 // do the dynamic resizing of the image when the 404 handler is invoked and it's for a non-existant image
 add_action('template_redirect', 'dynimg_404_handler');
 function dynimg_404_handler() {

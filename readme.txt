@@ -16,6 +16,8 @@ This plugin changes the way WordPress creates images to make it generate the ima
 
 "Pretty" permalinks must be enabled for this plugin to function.
 
+Note: This plugin does not work on multisite setups, due to the way WordPress handles file serving in such situations (with ms-files.php).
+
 
 Want regular updates? Become a fan of my sites on Facebook!
 http://www.facebook.com/apps/application.php?id=116002660893
