@@ -5,6 +5,8 @@ Tags: dynamic, image, resizer, uploader, jpg, png, gif, photo
 Requires at least: 3.2
 Tested up to: 3.2.1
 Stable tag: trunk
+License: GPLv2
+License URI: http://www.opensource.org/licenses/GPL-2.0
 
 Make your images change sizes dynamically.
 
